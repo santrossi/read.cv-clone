@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/swansea" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>SANTIAGO ROSSI - Contacto</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="../index.html">portfolio</a>
+          </li>
+          <li>
+            <a href="./contacto.html"><u>contacto</u></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="landing-contacto">
+        <h1>Enviame tu mensaje</h1>
+
+        <form
+          action="https://formspree.io/f/xbdwyryr"
+          method="POST"
+          class="form-consulta"
+        >
+          <div class="form-inputs">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="message"></textarea>
+          </div>
+          <button class="btn btn-green" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
