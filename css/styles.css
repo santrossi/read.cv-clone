@@ -133,7 +133,8 @@ img {
   flex-direction: column;
 }
 
-#test,
+#volunteering,
+#educacion,
 #proyectos {
   display: grid;
   grid-template-columns: 1fr 3fr;
